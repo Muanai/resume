@@ -1,0 +1,48 @@
+# LaTeX auxiliary files
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex
+*.synctex.gz
+*.bcf
+*.run.xml
+*.bbl
+*.blg
+*.idx
+*.ilg
+*.ind
+*.nav
+*.snm
+*.vrb
+*.xdv
+
+# LaTeX Workshop / build artifacts
+*.pdf
+
+# Build directories
+build/
+dist/
+.cache/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+
+# Generated output
+output/*
+!output/.gitkeep
