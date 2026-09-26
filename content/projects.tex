@@ -1,0 +1,90 @@
+\textbf{Credit Risk Feature Engine}
+\hfill 2025 -- Present
+
+\textit{Python, Numba, LightGBM, PostgreSQL, Redis, Go, Docker, pytest}
+
+\begin{itemize}
+    \item Designed a stateful behavioral feature engine for credit risk,
+    capturing temporal signals including late-payment streaks,
+    payment velocity, and critical utilization patterns.
+    \item Optimized stateful feature computation with Numba JIT,
+    reducing benchmarked runtime from approximately 58 seconds to
+    1.1 milliseconds.
+    \item Evolved the batch feature pipeline into a dual-store serving
+    architecture using PostgreSQL for offline storage, Redis for online
+    serving, and a containerized Go API.
+    \item Stress-tested the serving layer with 10,000 requests across
+    100 concurrent workers, achieving 617.69 RPS with 1.62 ms average
+    latency and zero failed requests.
+    \item Improved LightGBM OOF ROC-AUC from 0.6355 with static features
+    to 0.6823 with the optimized hybrid feature set (+7.3\% relative).
+\end{itemize}
+
+\textbf{Regulatory-Aware Credit Risk Decision Support System}
+\hfill Apr 2026 -- Present
+
+\textit{FastAPI, React, XGBoost, SHAP, RAG, ChromaDB, Ollama, Docker}
+
+\begin{itemize}
+    \item Prototyped a credit risk decision-support system combining
+    predictive models, SHAP-based explanations, and regulatory retrieval
+    grounded in POJK 40/2024.
+    \item Experimented with XGBoost, Logistic Regression, and
+    FT-Transformer alongside what-if analysis and automated PDF audit
+    reporting.
+    \item Built a local RAG workflow using ChromaDB and Ollama to support
+    privacy-preserving regulatory context during risk assessment.
+\end{itemize}
+
+\textit{Status: On hold}
+
+\textbf{Telligence -- Telecom Infrastructure Intelligence}
+\hfill 2025 -- 2026
+
+\textit{Python, YOLOv8, Computer Vision, Geospatial Analysis}
+
+\begin{itemize}
+    \item Built an object detection pipeline for telecom infrastructure
+    from 399 personally collected street-level images, curating 157
+    high-quality samples across 5 infrastructure/provider classes.
+    \item Improved YOLOv8 validation mAP@50 from 0.522 to 0.763 through
+    data curation, stratified splitting, physics-aware augmentation,
+    and targeted synthetic data generation.
+    \item Developed a geospatial processing pipeline that extracts GPS
+    metadata and maps detections to administrative regions using
+    offline BPS shapefiles.
+    \item Produced structured regional outputs for downstream business
+    intelligence and infrastructure analysis.
+\end{itemize}
+
+\textbf{Calmora -- AI Mental Wellness Companion}
+\hfill 2026
+
+\textit{LLM, RAG, Python, Mobile Development, Product Design}
+
+\begin{itemize}
+    \item Built an AI-assisted mental wellness application combining
+    conversational support, journaling, grounding exercises, and
+    guided micro-interventions.
+    \item Developed a retrieval-augmented generation workflow grounded
+    in WHO, CCI, and persona-specific knowledge sources to support
+    context-aware responses.
+    \item Evaluated the AI experience with an LLM-based judge, achieving
+    a 0.93 evaluation score, alongside 1.93s time-to-first-token.
+    \item Designed privacy-aware handling for sensitive user data and
+    evaluated overall usability with a SUS score of 76.92.
+\end{itemize}
+
+\textbf{BASA -- Indonesian Text Preprocessing Library}
+\hfill 2026 -- Present
+
+\textit{Python, NLP, Open Source}
+
+\begin{itemize}
+    \item Developed and maintained an open-source Python library for
+    Indonesian text preprocessing, designed for reusable NLP workflows.
+    \item Published the package with Python 3.10+ support and maintained
+    documentation and project tooling for public use.
+    \item Reached over 6,000 package downloads and received a 100/100
+    security score from Socket.dev.
+\end{itemize}
